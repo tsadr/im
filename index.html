@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="fa">
-	<head>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-		<script type="text/javascript" src="jquery-2.2.0.min.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="favicon.ico" />
-		<title>Master Exam</title>
-	</head>
-	<body>
-		<div class="vertical-center">
-			<div class="center-block">
-				<h1>Master Exam Countdown: </h1>
-			</div>
-		</div>
-	</body>
-	<script>
-		var date1 = new Date;
-		var date2 = new Date('April 21, 2017');
-		var im = date2 - date1;
-		var day = 1000*60*60*24
-		$("h1").append("<strong>"+Math.round(im/day)+"</strong>");
-	</script>
+<html >
+  <head>
+    <meta charset="UTF-8">
+	<title>Master Exam</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+	<h1>Master Exam Countdown: </h1>
+<div class="vertical-center" id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+  </body>
+	<script src="js/index.js"></script>
 </html>
