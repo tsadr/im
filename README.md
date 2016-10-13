@@ -1,2 +1,2 @@
 # im
-Javascript fucntion to count days between to date!
+Javascript fucntion to count days between two date!
