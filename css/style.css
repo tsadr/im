@@ -29,7 +29,7 @@ h1{
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #1410C033;
+	background: rgba(85,105,230,1);
 	display: inline-block;
 }
 
@@ -43,11 +43,14 @@ h1{
   display: flex;
   align-items: center;
 }
-@media (max-width: 1000px) and (min-width: 100px) {
+@media (max-width: 1000px) and (min-width: 300px) {
   h1 {
 	font-size:80px;
   }
   #clockdiv{
-	font-size:70px;
+	font-size:133px;
+  }
+  .smalltext{
+	font-size: 50px;
   }
 }
