@@ -43,7 +43,18 @@ h1{
   display: flex;
   align-items: center;
 }
-@media (max-width: 1000px) and (min-width: 300px) {
+@media (max-width: 800px) and (min-width: 700px) {
+  h1 {
+	font-size:85px;
+  }
+  #clockdiv{
+	font-size:85px;
+  }
+  .smalltext{
+	font-size: 45px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 801px) {
   h1 {
 	font-size:80px;
   }
