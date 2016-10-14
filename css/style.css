@@ -43,3 +43,19 @@ h1{
   display: flex;
   align-items: center;
 }
+@media (max-width: 400px) and (min-width: 300px) {
+  h1 {
+	font-size: 60px;
+  }
+  .smalltext{
+	font-size: 32px;
+  }
+}
+@media (max-width: 500px) and (min-width: 400px) {
+  h1 {
+	font-size: 90px;
+  }
+  .smalltext{
+	font-size: 32px;
+  }
+}
