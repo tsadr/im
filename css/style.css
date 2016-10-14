@@ -45,17 +45,17 @@ h1{
 }
 @media (max-width: 400px) and (min-width: 300px) {
   h1 {
-	font-size: 60px;
+	font-size:80px;
   }
-  .smalltext{
-	font-size: 32px;
+  #clockdiv{
+	font-size:70px;
   }
 }
 @media (max-width: 500px) and (min-width: 400px) {
-  h1 {
-	font-size: 90px;
+  h1{
+	font-size:80px;
   }
-  .smalltext{
-	font-size: 32px;
+  #clockdiv{
+	font-size:70px;
   }
 }
