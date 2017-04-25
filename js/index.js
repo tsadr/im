@@ -1,5 +1,8 @@
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
+  if (t <= 0) {
+	t = 0;
+  }
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
@@ -37,5 +40,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("April 27, 2017 01:00:00");
+var deadline = new Date("April 27, 2017 14:00:00");
 initializeClock('clockdiv', deadline);
